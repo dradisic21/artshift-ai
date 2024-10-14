@@ -1,0 +1,40 @@
+@import "Colors.scss";
+
+.container {
+  padding: 0 20px;
+  .nav-container {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .terms-content {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-weight: 500;
+    padding-bottom: 50px;
+
+    ul,
+    .terms_condition {
+      list-style-type: none;
+      padding-top: 0;
+      margin: 0;
+    }
+
+    li,
+    .terms_condition {
+      list-style-type: none;
+      padding-top: 5px;
+      margin: 0;
+      font-weight: lighter;
+    }
+
+    h4 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    p {
+      font-weight: lighter;
+    }
+  }
+}

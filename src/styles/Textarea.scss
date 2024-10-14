@@ -1,0 +1,11 @@
+@import "Colors.scss";
+
+.contact-textarea {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid $borderForm;
+  outline: none;
+  font-size: 16px;
+}

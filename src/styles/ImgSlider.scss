@@ -1,0 +1,58 @@
+@import "Colors.scss";
+
+.slider-main {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 50px 0;
+  // background: $linearGradient1;
+  // background: $linearGradient1-moz;
+  // background: $linearGradient1-webkit;
+  // background: $linearGradient1-linear;
+  // filter: $linearGradient1-filter;
+  // color: $whiteColor;
+  // border-radius: 20px;
+  // box-shadow: $boxShadow1;
+
+  .guide-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    height: 600px;
+    background: $linearGradient1;
+    background: $linearGradient1-moz;
+    background: $linearGradient1-webkit;
+    background: $linearGradient1-linear;
+    filter: $linearGradient1-filter;
+    color: $whiteColor;
+    border-radius: 20px;
+    box-shadow: $boxShadow;
+
+    h2,
+    h3,
+    p {
+      margin: 20px;
+    }
+  }
+  .slider-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: transparent;
+    text-align: center;
+    
+    
+    img {
+      width: 100%;
+      max-width: 570px;
+      border-radius: 20px;
+      margin-right: 10px;
+      
+    }
+  }
+}

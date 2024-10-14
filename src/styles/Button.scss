@@ -1,0 +1,184 @@
+@import "Colors.scss";
+
+.button-container {
+  display: flex;
+  padding-top: 30px;
+
+  .playstore-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 9999px;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 0.625rem 1.5rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    outline: 0;
+    transition: all 0.2s ease;
+    text-decoration: none;
+
+    &:hover {
+      background-color: transparent;
+      color: rgba(0, 0, 0, 1);
+    }
+
+    .icon {
+      height: 1.5rem;
+      width: 1.5rem;
+    }
+
+    .texts {
+      margin-left: 1rem;
+      display: flex;
+      gap: 2px;
+      flex-direction: column;
+      align-items: flex-start;
+      line-height: 1;
+
+      &-1 {
+        margin-bottom: 0.25rem;
+        font-size: 0.75rem;
+        line-height: 1rem;
+      }
+
+      &-2 {
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.contact-button {
+  width: 100%;
+  max-width: 150px;
+  height: 40px;
+  background-color: $contactButton;
+  color: $whiteColor;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $hoverButton;
+  }
+}
+
+.btn-contact {
+  width: 100%;
+  max-width: 150px;
+  height: 40px;
+  background-color: $contactButton;
+  color: $whiteColor;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: transform 0.5s ease-in-out;
+
+  &:hover {
+    background-color: $hoverButton;
+  }
+}
+
+.sub-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: black;
+  border: 1px solid black;
+  color: $whiteColor;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid black;
+    background-color: $whiteColor;
+    color: black;
+  }
+}
+
+.submit-form_button {
+  width: 150px;
+  height: 45px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid $subButton;
+  color: $textColor4;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $hoverButton;
+    color: $whiteColor;
+  }
+}
+
+.data-button {
+  width: 250px;
+  height: 45px;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid $subButton;
+  color: $textColor4;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $hoverButton;
+    color: $whiteColor;
+  }
+}
+
+.backToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: $contactButton;
+  background-image: url("../../public/assets/icons/arrowup.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  color: #fff;
+  border: none;
+  border-radius: 100%;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 99;
+  transition: background-color 0.3s;
+
+  &.visible {
+    display: block;
+  }
+
+  &.hidden {
+    display: none;
+  }
+
+  &:hover {
+    background-color: $hoverButton;
+  }
+}
+
+.muteBtn {
+  border: none;
+  background-color: transparent;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 3px;
+  cursor: pointer;
+  
+  .fa-volume-xmark,
+  .fa-volume-high {
+    font-size: 25px;
+  }
+}

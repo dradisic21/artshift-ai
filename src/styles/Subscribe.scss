@@ -1,0 +1,55 @@
+@import "Colors.scss";
+
+.subscribe-main {
+  width: 100%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+    line-height: 28px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  .input-container {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+
+@media (max-width: 1024px) { 
+  .subscribe-main {
+    text-align: center;
+
+    .input-container  {
+      display: flex;
+      justify-content: center;
+      padding-top: 20px;
+    }
+  }  
+}
+
+@media (max-width: 600px) { 
+  .subscribe-main {
+    text-align: center;
+
+    .input-container  {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 20px;
+    }
+  }  
+}
