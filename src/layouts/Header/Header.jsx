@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 import { Nav } from "../../layouts/Nav/Nav";
 import { PlayStoreButton } from "../../ui/PlayStoreButton";
 import { Video } from "../../components/Video/Video";
@@ -23,39 +24,97 @@ export function Header() {
     };
   }, []);
 
+  // Definicija varijanti za animaciju
+  const titleVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: "easeOut" } }
+  };
+
+  const subtitleVariants = {
+    hidden: { opacity: 0, x: -30 },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.8, ease: "easeOut" } }
+  };
+
+  const buttonVariants = {
+    hidden: { opacity: 0, scale: 0.8 },
+    visible: { opacity: 1, scale: 1, transition: { duration: 0.6, ease: "easeOut" } }
+  };
+
+  const imageVariants = {
+    hidden: { opacity: 0, x: 30 },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.9, ease: "easeOut" } }
+  };
+
   return (
     <div className="header-container">
       <Nav />
       <div className="header-content">
-        <div className="title-content">
-          <h1 className="main-title">
+        <motion.div
+          className="title-content"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          variants={titleVariants}
+        >
+          <motion.h1
+            className="main-title"
+            variants={titleVariants}
+          >
             Make the Best Images with Creative Brilliance
-          </h1>
+          </motion.h1>
 
-          <p className="main-subtitle">
+          <motion.p
+            className="main-subtitle"
+            variants={subtitleVariants}
+          >
             ArtShift.ai is a versatile image creation and editing app designed
             to revolutionize your digital art experience.
-          </p>
+          </motion.p>
 
-          <div className="buttons-content">
+          <motion.div
+            className="buttons-content"
+            variants={buttonVariants}
+          >
             <PlayStoreButton />
-            <div className="video-button" onClick={openVideo}>
+            <motion.div
+              className="video-button"
+              onClick={openVideo}
+              variants={buttonVariants}
+            >
               <img src="/assets/icons/play-icon.png" alt="play-icon" />
               <p>Watch Video</p>
-            </div>
-          </div>
-        </div>
+            </motion.div>
+          </motion.div>
+        </motion.div>
 
         <div className="image-content">
-          <div className="img1">
+          <motion.div
+            className="img1"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={imageVariants}
+          >
             <img src="/assets/web_create.png" alt="create" />
-          </div>
-          <div className="img2">
+          </motion.div>
+          <motion.div
+            className="img2"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={imageVariants}
+          >
             <img src="/assets/web_edit.png" alt="edit" />
-          </div>
-          <div className="img3">
+          </motion.div>
+          <motion.div
+            className="img3"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={imageVariants}
+          >
             <img src="/assets/web_gallery.png" alt="gallery" />
-          </div>
+          </motion.div>
         </div>
       </div>
 

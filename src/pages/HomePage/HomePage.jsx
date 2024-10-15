@@ -1,6 +1,6 @@
 import { Header } from "../../layouts/Header/Header";
 import { Footer } from "../../layouts/Footer/Footer";
-import { Fetatures } from "../../sections/Features/Features";
+import { Features } from "../../sections/Features/Features";
 import { Advantages } from "../../sections/Advantages/Advantages";
 import { Benefits } from "../../sections/Benefits/Benefits";
 import { Faq } from "../../sections/Faq/Faq";
@@ -11,7 +11,7 @@ export function HomePage() {
   return (
     <div className="home-container">
       <Header />
-      <Fetatures />
+      <Features />
       <Advantages />
       <Benefits />
       <Faq />
