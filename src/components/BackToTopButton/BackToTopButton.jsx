@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Button } from "../../ui/Button";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 export function BackToTopButton() {
   const [isVisible, setIsVisible] = useState(false);
