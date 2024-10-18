@@ -10,7 +10,6 @@ export function PopUpForm({ onClose }) {
       <div className="popup-content">
         <h2>Data Deletion Request</h2>
         <Form />
-       
       </div>
     </div>
   );
