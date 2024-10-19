@@ -12,7 +12,7 @@ export function Nav() {
       <nav>
         <div className="logo-container">
           <Link to="/">
-            <img src="/assets/logo/artshift-transparent-min-bg.png" alt="artshift-logo" />
+            <img src="/assets/logo/artshift-tr-logo.png" alt="artshift-logo" />
           </Link>
         </div>
 
