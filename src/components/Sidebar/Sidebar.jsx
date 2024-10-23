@@ -17,7 +17,7 @@ export function Sidebar() {
       <div className="body">
         <div className="nav">
           <div className="nav-header">
-           <img src="/assets/logo/artshift-tr-logo.png" alt="artshift-logo" />
+           <img src="/assets/artshift_logo.png" alt="logo" />
           </div>
           <ul>
             <li>
