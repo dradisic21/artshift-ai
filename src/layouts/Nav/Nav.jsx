@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Sidebar } from "../../components/Sidebar/Sidebar";
 import Hamburger from "hamburger-react";
+
+
 import "../../styles/Nav.scss";
 
 export function Nav() {
@@ -12,7 +14,7 @@ export function Nav() {
       <nav>
         <div className="logo-container">
           <Link to="/">
-            <img src="/assets/logo/app_icon_3_filled.png" alt="logo" />
+          <img src="/assets/logo2.png" alt="storiya-logo" />
           </Link>
         </div>
 

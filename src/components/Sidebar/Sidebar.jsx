@@ -17,7 +17,7 @@ export function Sidebar() {
       <div className="body">
         <div className="nav">
           <div className="nav-header">
-           <img src="/assets/logo/app_icon_3_filled.png" alt="logo" />
+          <img src="/assets/logo2.png" alt="storiya-logo" />
           </div>
           <ul>
             <li>
