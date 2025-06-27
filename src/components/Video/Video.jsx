@@ -1,16 +1,23 @@
-import React, { useState } from "react";
-import ReactPlayer from "react-player";
+import React, { useState, useEffect, Suspense } from "react";
 import { Button } from "../../ui/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faVolumeMute, faVolumeUp } from "@fortawesome/free-solid-svg-icons";
 import "../../styles/Video.scss";
 
+const ReactPlayer = React.lazy(() => import("react-player"));
+
 export function Video({ onClose }) {
   const [isMuted, setIsMuted] = useState(true);
+  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
 
   const toggleMute = () => {
     setIsMuted((prevMuted) => !prevMuted);
   };
+
+  
+  useEffect(() => {
+    setIsVideoLoaded(true);
+  }, []);
 
   return (
     <div className="video-popup-overlay">
@@ -19,15 +26,25 @@ export function Video({ onClose }) {
           &times;
         </button>
         <div className="video-main">
-          <ReactPlayer
-            className="react-player"
-            url="https://www.youtube.com/watch?v=I_cFjQz_DzI"
-            width="100%"
-            height="100%"
-            controls={false}
-            autoplay={true}
-            muted={isMuted}
-          />
+          <Suspense
+            fallback={
+              <div>
+                <img src="/assets/video-thumbnail.jpg" alt="Video thumbnail" />
+              </div>
+            }
+          >
+            {isVideoLoaded && (
+              <ReactPlayer
+                className="react-player"
+                url="https://www.youtube.com/watch?v=nrEN-xczPCA"
+                width="100%"
+                height="100%"
+                controls={false}
+                playing={true}
+                muted={isMuted}
+              />
+            )}
+          </Suspense>
           <Button
             className="muteBtn"
             onClick={toggleMute}

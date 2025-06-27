@@ -4,7 +4,7 @@ import "../../styles/PrivacyPolice.scss";
 
 export function PrivacyPolice() {
   return (
-    <div>
+    <>
       <div className="container">
         <div className="nav-container">
           <Nav />
@@ -15,7 +15,7 @@ export function PrivacyPolice() {
           <div>
             <p>
               Thank you for having interest in our company and the application
-              ArtShift.ai (hereinafter: Application) we have created for you. We
+              Storiya.app (hereinafter: Application) we have created for you. We
               take the protection of your personal data very seriously and we
               process your data in accordance with the applicable legal
               provisions for the protection of personal data, in particular with
@@ -53,7 +53,7 @@ export function PrivacyPolice() {
               <li>registered with the Commercial Court Osijek</li>
               <li>MBS: 030249088</li>
               <li>PIN: 14765764374</li>
-              <li>(hereinafter : Cypher) https://artshift.ai/privacy-policy</li>
+              <li>(hereinafter : Cypher) https://Storiya.app/privacy-policy</li>
             </ul>
           </div>
 
@@ -222,7 +222,7 @@ export function PrivacyPolice() {
               </p>
               <p>
                 5. The User may request his/her data to be deleted by sending
-                the request to: artshift.ai/data-deletion, if the processing of
+                the request to: Storiya.app/data-deletion, if the processing of
                 such data has no legal basis, or if the legal basis has ceased
                 to apply. The same applies if the purpose behind the data
                 processing has lapsed or ceased to be applicable for other
@@ -247,7 +247,7 @@ export function PrivacyPolice() {
             <div>
               <h2>COOKIES</h2>
               <p>
-                The website https://artshift.ai/ uses necessary cookies and
+                The website https://Storiya.app/ uses necessary cookies and
                 other types of cookies for which you may provide your consent in
                 accordance with the notifications and options contained in
                 cookie banner.
@@ -265,7 +265,7 @@ export function PrivacyPolice() {
               <p>
                 If you have any questions or suggestions regarding our Privacy
                 Policy, please feel free to contact us via the contact form at
-                https://artshift.ai .
+                https://Storiya.app .
               </p>
               <br />
             </div>
@@ -275,10 +275,10 @@ export function PrivacyPolice() {
             </div>
           </div>
         </div>
+        <div className="footer">
+          <Footer />
+        </div>
       </div>
-      <div className="footer">
-        <Footer />
-      </div>
-    </div>
+    </>
   );
 }

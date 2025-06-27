@@ -5,15 +5,15 @@ import "../../styles/ContactPage.scss";
 
 export function ContactPage() {
   return (
-    <>
+    <div className="contact-page_container">
       <Nav />
-      <div className="contact-page_container">
-        <div className="form-content">
-            <h1>Contact Us</h1>
-          <Form />
-        </div>
+
+      <div className="form-content">
+        <h1>Contact Us</h1>
+        <Form />
       </div>
+
       <Footer />
-    </>
+    </div>
   );
 }

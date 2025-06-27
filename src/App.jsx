@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.scss";
 import { HomePage } from "./pages/HomePage/HomePage";
 import { PrivacyPolice } from "./pages/PrivacyPolice/PrivacyPolice";
 import { Cookies } from "./layouts/Cookie/Cookies";
@@ -8,6 +7,7 @@ import { BackToTopButton } from "./components/BackToTopButton/BackToTopButton";
 import { TermsAndCondition } from "./pages/TermsAndCondition/TermsAndCondition";
 import { DataDeletion } from "./pages/DataDelition/DataDeletion";
 import { ContactPage } from "./pages/ContactPage/ContactPage";
+import "./App.scss";
 
 export function App() {
   return (

@@ -4,7 +4,7 @@ export function AnimationTitle() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
-    const text = "ArtShift.ai";
+    const text = "Storiya.app";
     let i = currentIndex;
 
     const interval = setInterval(() => {
@@ -33,8 +33,6 @@ export function AnimationTitle() {
 
     return () => clearInterval(interval);
   }, [currentIndex]);
-
-
 
   return (
     <div className="title">

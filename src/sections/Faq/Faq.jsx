@@ -41,34 +41,34 @@ export function Faq() {
       <div className="faq-content">
         {[
           {
-            question: "How does the AI generate images?",
+            question: "How does Storiya generate illustrations??",
             answer:
-              "The AI uses advanced algorithms and machine learning models to analyze user inputs and preferences, then generates custom images based on style, subject, and other parameters you set.",
+              "Storiya uses advanced AI algorithms to analyze your story's characters and details, creating personalized and unique visual illustrations for each chapter.",
           },
           {
-            question: "Can I customize the generated images?",
+            question: "Can I customize my stories further?",
             answer:
-              "Yes, you can tweak various aspects such as colors, styles, and elements to refine the generated image. The app provides editing tools to help you achieve the desired look.",
+              "Absolutely. You can select fonts, paper styles, image styles, and audio narrations to fully tailor each story to your preferences.",
           },
           {
-            question: "Are the images suitable for commercial use?",
+            question: "Are the stories shareable with others?",
             answer:
-              "Absolutely. The app generates high-resolution images suitable for commercial use, including marketing materials, social media posts, and professional printing.",
+              "Yes! Storiya allows you to share your creations with our active community, where your stories can be discovered, rated, and commented on by fellow storytellers.",
           },
           {
-            question: "How long does it take to create an image?",
+            question: "How long does story creation take?",
             answer:
-              "Image generation typically takes just a few seconds, but the time may vary slightly depending on the complexity of your request.",
+              "Creating a story is fast and intuitive. AI-generated illustrations and narrations typically complete within moments, enabling rapid storytelling and seamless creative flow.",
           },
           {
-            question: "What formats are supported for downloading images?",
+            question: "What audio narration options do I have?",
             answer:
-              "You can download images in various formats, such as JPEG, PNG, and even vector formats like SVG, depending on your needs.",
+              "You can choose from 7 different professional-quality AI-generated voices, adding depth and emotion to your stories.",
           },
           {
-            question: "Is there a limit to the number of images I can create?",
+            question: "Is there a limit to the number of stories I can create?",
             answer:
-              "The number of images you can create may depend on your subscription plan. Check the app's pricing details for more information on usage limits.",
+              "Your story creation limits depend on your subscription plan, providing various levels of access to match your storytelling needs.",
           },
         ].map((faq, index) => (
           <motion.div

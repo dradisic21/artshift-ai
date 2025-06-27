@@ -1,11 +1,15 @@
 @import "Colors.scss";
 
 .container {
+  width: 100%;
+  max-width: 1440px;
   padding: 0 20px;
+  margin: 0 auto;
+
   .nav-container {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    
   }
+
   .police-content {
     width: 100%;
     max-width: 1320px;

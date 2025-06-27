@@ -25,28 +25,28 @@ export function DataDeletion() {
   }, []);
 
   return (
-    <>
+    <div className="data-container">
       <Nav />
-      <div className="data-container">
-        <div className="reguest-data">
-          <h1 className="data-title">Data Deletion</h1>
-          <div className="content-box">
-            <h2>Request Data Deletion</h2>
-            <p>
-              If you wish to delete all data associated to you from ArtShift
-              app, you can do so here. Contact us and we'll process your request
-              as soon as possible
-            </p>
-            <Button
-              className="data-button"
-              name="DATA DELETION REQUEST"
-              onClick={openForm}
-            />
-          </div>
-          {isPopupVisible && <PopUpForm onClose={closeForm} />}
+
+      <div className="reguest-data">
+        <h1 className="data-title">Data Deletion</h1>
+        <div className="content-box">
+          <h2>Request Data Deletion</h2>
+          <p>
+            If you wish to delete all data associated to you from ArtShift app,
+            you can do so here. Contact us and we'll process your request as
+            soon as possible
+          </p>
+          <Button
+            className="data-button"
+            name="DATA DELETION REQUEST"
+            onClick={openForm}
+          />
         </div>
+        {isPopupVisible && <PopUpForm onClose={closeForm} />}
       </div>
+
       <Footer />
-    </>
+    </div>
   );
 }

@@ -4,16 +4,16 @@
     width: 100%;
     max-width: 1700px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    padding: 100px 0;
     
 
     .form-content{
         width: 100%;
         max-width: 800px;
-        margin: 0 auto;
+        margin: 50px auto;
         padding: 50px 20px;
         box-shadow: $boxShadow;
         border-radius: 8px;

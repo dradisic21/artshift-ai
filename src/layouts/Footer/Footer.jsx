@@ -33,13 +33,12 @@ export function Footer() {
           </div>
           <div className="footer-artshift-about">
             <p>
-              ArtShift is an application powered by artificial intelligence to
-              generate unique images based on your preferences. Using advanced
-              algorithms, it adjusts visual elements to match your style and
-              needs, whether you're creating digital sketches, illustrations or
-              high-quality prints. ArtShift delivers stunning results in
-              seconds, simplifying the creative process for designers, artists
-              and enthusiasts.
+              Storiya is a storytelling application powered by artificial
+              intelligence, designed to seamlessly transform your creative ideas
+              into engaging stories enriched by AI-generated visuals and
+              immersive narrations. Effortlessly customize your storytelling
+              experience, share with a vibrant community, and explore limitless
+              creative possibilities with Storiya.
             </p>
           </div>
           <div className="social-network">
@@ -72,10 +71,10 @@ export function Footer() {
         <div className="footer-support_content">
           <h3>Contact</h3>
           <div className="links">
-            <a href="mailto:support@artshift.ai?subject=Mail from ArtShift Site">
+            <a href="mailto:support@storiya.app?subject=Mail from ArtShift Site">
               Support
             </a>
-            <a href="mailto:marketing@artshift.ai?subject=Mail from ArtShift Site">
+            <a href="mailto:marketing@storiya.app?subject=Mail from ArtShift Site">
               Marketing
             </a>
           </div>
@@ -91,9 +90,15 @@ export function Footer() {
           RESERVED.
         </p>
         <p>
-  POWERED BY <a href="https://www.idirection.hr" target="_blank" rel="noopener noreferrer">IDIRECTION</a>
-</p>
-
+          POWERED BY{" "}
+          <a
+            href="https://www.idirection.hr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            IDIRECTION
+          </a>
+        </p>
       </div>
     </div>
   );

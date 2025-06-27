@@ -27,22 +27,38 @@ export function Header() {
   // Definicija varijanti za animaciju
   const titleVariants = {
     hidden: { opacity: 0, y: 50 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: "easeOut" } }
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.7, ease: "easeOut" },
+    },
   };
 
   const subtitleVariants = {
     hidden: { opacity: 0, x: -30 },
-    visible: { opacity: 1, x: 0, transition: { duration: 0.8, ease: "easeOut" } }
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: { duration: 0.8, ease: "easeOut" },
+    },
   };
 
   const buttonVariants = {
     hidden: { opacity: 0, scale: 0.8 },
-    visible: { opacity: 1, scale: 1, transition: { duration: 0.6, ease: "easeOut" } }
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: { duration: 0.6, ease: "easeOut" },
+    },
   };
 
   const imageVariants = {
     hidden: { opacity: 0, x: 30 },
-    visible: { opacity: 1, x: 0, transition: { duration: 0.9, ease: "easeOut" } }
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: { duration: 0.9, ease: "easeOut" },
+    },
   };
 
   return (
@@ -56,25 +72,17 @@ export function Header() {
           viewport={{ once: true, amount: 0.5 }}
           variants={titleVariants}
         >
-          <motion.h1
-            className="main-title"
-            variants={titleVariants}
-          >
-            Make the Best Images with Creative Brilliance
+          <motion.h1 className="main-title" variants={titleVariants}>
+            Bring Your Stories to Life with AI Magic
           </motion.h1>
 
-          <motion.p
-            className="main-subtitle"
-            variants={subtitleVariants}
-          >
-            ArtShift.ai is a versatile image creation and editing app designed
-            to revolutionize your digital art experience.
+          <motion.p className="main-subtitle" variants={subtitleVariants}>
+            Storiya is an innovative storytelling app designed to transform your
+            creativity into captivating AI-illustrated narratives and immersive
+            audio experiences.
           </motion.p>
 
-          <motion.div
-            className="buttons-content"
-            variants={buttonVariants}
-          >
+          <motion.div className="buttons-content" variants={buttonVariants}>
             <PlayStoreButton />
             <motion.div
               className="video-button"
@@ -95,7 +103,7 @@ export function Header() {
             viewport={{ once: true, amount: 0.5 }}
             variants={imageVariants}
           >
-            <img src="/assets/web_create.png" alt="create" />
+            <img src="/assets/Storiya-homepage-min.png" alt="edit" />
           </motion.div>
           <motion.div
             className="img2"
@@ -104,7 +112,7 @@ export function Header() {
             viewport={{ once: true, amount: 0.5 }}
             variants={imageVariants}
           >
-            <img src="/assets/web_edit.png" alt="edit" />
+            <img src="/assets/Storiya-app-min.png" alt="create" />
           </motion.div>
           <motion.div
             className="img3"
@@ -113,7 +121,7 @@ export function Header() {
             viewport={{ once: true, amount: 0.5 }}
             variants={imageVariants}
           >
-            <img src="/assets/web_gallery.png" alt="gallery" />
+            <img src="/assets/Storiya-app-narative-min.png" alt="gallery" />
           </motion.div>
         </div>
       </div>

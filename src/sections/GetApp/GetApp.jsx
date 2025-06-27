@@ -5,11 +5,11 @@ import "../../styles/GetApp.scss";
 export function GetApp() {
   // Definicija varijanti za animaciju
   const textVariants = {
-    hidden: { opacity: 0, x: -50 }, 
+    hidden: { opacity: 0, x: -50 },
     visible: {
       opacity: 1,
       x: 0,
-      transition: { duration: 0.8, delay: 0.4, ease: "easeOut" }, 
+      transition: { duration: 0.8, delay: 0.4, ease: "easeOut" },
     },
   };
 
@@ -22,13 +22,10 @@ export function GetApp() {
             initial="hidden"
             whileInView="visible"
             variants={textVariants}
-            viewport={{ once: true }} 
+            viewport={{ once: true }}
           >
             <h2>Ready To Get Started?</h2>
-            <p>
-              Download the App Now and Start Creating Stunning Images
-              Effortlessly.
-            </p>
+            <p>Download the App Now and join our Storytelling Community.</p>
             <a
               className="get-app-button"
               href="https://play.google.com/store/apps/details?id=com.cypher.shiftai"
@@ -49,9 +46,9 @@ export function GetApp() {
             </a>
           </motion.div>
         </div>
-        
+
         <div className="mobile-image">
-          <img src="assets/black-mobiles-bg.png" alt="mobiles" />
+          <img src="assets/storiya-mobiles-bg.jpg" alt="mobiles" />
         </div>
       </div>
     </div>
