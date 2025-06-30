@@ -5,7 +5,7 @@ export function PlayStoreButton() {
     <div className="button-container">
       <a
         className="playstore-button"
-        href="https://play.google.com/store/apps/details?id=com.cypher.shiftai"
+        href="https://play.google.com/store/apps/details?id=com.cypher.storiya"
         target="_blank"
         rel="noreferrer"
       >

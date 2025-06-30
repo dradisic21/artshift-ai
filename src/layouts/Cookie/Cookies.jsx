@@ -14,11 +14,11 @@ export function Cookies() {
     <div>
       <CookieConsent
         location="bottom"
-        buttonText="Prihvati"
+        buttonText="Accept"
         cookieName="myAwesomeCookieName2"
-        style={{ background: "#2B373B" }}
+        style={{ background: "#f6f6f6" }}
         buttonStyle={{
-          background: "#db2ed3ff",
+          background: "#1b6a9e",
           color: "white",
           fontSize: "13px",
           padding: "15px 40px",
@@ -26,13 +26,13 @@ export function Cookies() {
         }}
         expires={150}
       >
-        <span>
+        <span  style={{ color: "#6e6e6e", cursor: "pointer" }}>
           This website uses cookies to provide the best possible experience user
           experience.{" "}
         </span>
         <span
           onClick={handlePrivacyPolicyClick}
-          style={{ color: "#db2ed3ff", cursor: "pointer" }}
+          style={{ color: "#1b6a9e", cursor: "pointer" }}
         >
           More Information
         </span>

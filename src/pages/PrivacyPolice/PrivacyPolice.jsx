@@ -67,7 +67,6 @@ export function PrivacyPolice() {
             </p>
             <ul className="data_police">
               <li>Email address</li>
-              <li>Phone number</li>
               <li>
                 Personal data contained in Google or Facebook user account.
               </li>

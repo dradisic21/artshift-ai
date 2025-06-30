@@ -64,13 +64,11 @@ export function TermsAndCondition() {
             <p>In order use the Application the User must be registered via</p>
             <ul className="terms_condition">
               <li>Email,</li>
-              <li>Phone number,</li>
               <li>Google or Facebook user account.</li>
             </ul>
             <p>Data collected during registration processa are:</p>
             <ul className="terms_condition">
-              <li>email address (if not registered via phone number)</li>
-              <li>phone number (only if registration is via phone number)</li>
+              <li>email address</li>
               <li>
                 device information - operating system version and name, device
                 model
