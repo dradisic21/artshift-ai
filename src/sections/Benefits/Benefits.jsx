@@ -58,7 +58,7 @@ export function Benefits() {
 
         <div className="image-creation-benefits">
           <motion.div className="benefits" variants={textVariants}>
-            <img src="/assets/icons/circle-star.png" alt="icon" />
+            <img src="/assets/icons/circle-star-blue.png" alt="icon" />
             <motion.h3 variants={textVariants}>
               Fully Personalized Storytelling
             </motion.h3>

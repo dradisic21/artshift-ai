@@ -62,7 +62,7 @@ export function Features() {
             viewport={{ once: false, amount: 0.5 }}
             variants={imageVariants}
           >
-            <img src="/assets/icons/star-05.png" alt="icon" />
+            <img src="/assets/icons/star-05-blue.png" alt="icon" />
             <motion.h3 variants={textVariants}>
               Effortless Story Creation
             </motion.h3>
@@ -90,7 +90,7 @@ export function Features() {
             viewport={{ once: false, amount: 0.5 }}
             variants={imageVariants}
           >
-            <img src="/assets/icons/cube-02.png" alt="icon" />
+            <img src="/assets/icons/cube-02-blue.png" alt="icon" />
             <motion.h3 variants={textVariants}>
               AI-Generated Illustrations
             </motion.h3>
@@ -118,7 +118,7 @@ export function Features() {
             viewport={{ once: false, amount: 0.5 }}
             variants={imageVariants}
           >
-            <img src="/assets/icons/cube-04.png" alt="icon" />
+            <img src="/assets/icons/cube-04-blue.png" alt="icon" />
             <motion.h3 variants={textVariants}>
               Immersive AI Narrations
             </motion.h3>

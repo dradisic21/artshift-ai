@@ -61,7 +61,7 @@ export function Advantages() {
             viewport={{ once: false, amount: 0.5 }}
             variants={textVariants}
           >
-            <img src="/assets/icons/bell.png" alt="icon" />
+            <img src="/assets/icons/bell-blue.png" alt="icon" />
             <motion.h3 variants={textVariants}>
               Creative Freedom, Simplified
             </motion.h3>

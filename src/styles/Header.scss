@@ -17,7 +17,7 @@
     .title-content {
       width: 50%;
       padding-top: 100px;
-      background: url(../../public/assets/rose-circle-bg.png) no-repeat top
+      background: url(../../public/assets/blue-bg-header.png) no-repeat top
         right;
 
       .main-title {
@@ -68,7 +68,7 @@
       width: 50%;
       padding-top: 50px;
       position: relative;
-      background: url(../../public/assets/circles-rose-bg3.png) no-repeat center
+      background: url(../../public/assets/blue-bg-advantages.png) no-repeat center
         left;
 
       .img1 {
@@ -119,7 +119,7 @@
       .title-content {
         width: 80%;
         padding-top: 100px;
-        background: url(../../public/assets/rose-circle-bg.png) no-repeat top
+        background: url(../../public/assets/blue-bg-header.png) no-repeat top
           right;
         text-align: center;
 
@@ -146,12 +146,12 @@
         width: 80%;
         // padding-top: 50px;
         position: relative;
-        background: url(../../public/assets/circles-rose-bg3.png) no-repeat bottom;
+        background: url(../../public/assets/blue-bg-advantages.png) no-repeat bottom;
   
         .img1 {
           z-index: 3;
           img {
-            width: 250px;
+            width: 220px;
             transform: rotate(-20deg);
           }
         }
@@ -160,7 +160,7 @@
           padding: 100px 0 100px 0;
           z-index: 2;
           img {
-            width: 250px;
+            width: 220px;
             transform: rotate(-20deg);
           }
         }
@@ -169,7 +169,7 @@
           padding-top: 140px;
           z-index: 1;
           img {
-            width: 250px;
+            width: 220px;
             transform: rotate(-20deg);
           }
         }
@@ -178,7 +178,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .header-container {
     .header-content {
       width: 100%;
@@ -193,7 +193,7 @@
         width: 100%;
         padding-top: 30px;
         height: 360px;
-        background: url(../../public/assets/rose-circle-bg.png) no-repeat
+        background: url(../../public/assets/blue-bg-header.png) no-repeat
           center;
           background-size: 95%;
   
@@ -217,15 +217,15 @@
         display: flex;
         width: 100%;
         padding-top: 50px;
-        background: url(../../public/assets/circles-rose-bg3.png) no-repeat bottom
+        background: url(../../public/assets/blue-bg-advantages.png) no-repeat bottom
           left cover;
-          background-size: 100%;
+          background-size: 70%;
   
         .img1 {
           z-index: 3;
           padding: 0px 0 0 0;
           img {
-            width: 200px;
+            width: 170px;
             transform: rotate(-20deg);
           }
         }
@@ -234,7 +234,7 @@
           padding-top: 60px;
           z-index: 2;
           img {
-            width: 200px;
+            width: 170px;
             transform: rotate(-20deg);
           }
         }
@@ -243,7 +243,7 @@
           padding: 120px 0 50px 0;
           z-index: 1;
           img {
-            width: 200px;
+            width: 170px;
             transform: rotate(-20deg);
           }
         }
@@ -266,7 +266,7 @@
       .title-content {
         width: 100%;
         padding: 30px 0 100px 0;
-        background: url(../../public/assets/rose-circle-bg.png) no-repeat
+        background: url(../../public/assets/blue-bg-header.png) no-repeat
           top;
           background-size: 400px;
   
@@ -295,7 +295,7 @@
         display: flex;
         width: 100%;
         position: relative;
-        background: url(../../public/assets/circles-rose-bg3.png) no-repeat top
+        background: url(../../public/assets/blue-bg-advantages.png) no-repeat top
            contain;
           background-size: 100%;
   
@@ -344,7 +344,7 @@
       .title-content {
         width: 100%;
         padding: 30px 0 160px 0;
-        background: url(../../public/assets/rose-circle-bg.png) no-repeat
+        background: url(../../public/assets/blue-bg-header.png) no-repeat
           top;
           background-size: 360px;
       }
@@ -353,7 +353,7 @@
         display: flex;
         width: 100%;
         position: relative;
-        background: url(../../public/assets/circles-rose-bg3.png) no-repeat bottom;
+        background: url(../../public/assets/blue-bg-advantages.png) no-repeat bottom;
           background-size: 350px;
   
         .img1 {

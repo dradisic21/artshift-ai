@@ -13,7 +13,7 @@ export function HomePage() {
       <Header />
       <Features />
       <Advantages />
-      <Benefits />
+      <Benefits />{/**/}
       <Faq />
       <GetApp />
       <Footer />
