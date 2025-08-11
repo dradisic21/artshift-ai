@@ -28,7 +28,7 @@ export function GetApp() {
             <p>Download the App Now and join our Storytelling Community.</p>
             <a
               className="get-app-button"
-              href="https://play.google.com/store/apps/details?id=com.cypher.shiftai"
+              href="https://play.google.com/store/apps/details?id=com.cypher.storiya"
               target="_blank"
               rel="noreferrer"
             >
