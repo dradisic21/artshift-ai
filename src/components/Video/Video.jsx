@@ -36,7 +36,7 @@ export function Video({ onClose }) {
             {isVideoLoaded && (
               <ReactPlayer
                 className="react-player"
-                url="https://www.youtube.com/watch?v=nrEN-xczPCA"
+                url="https://www.youtube.com/watch?v=5qHm9cUWGCk"
                 width="100%"
                 height="100%"
                 controls={false}
